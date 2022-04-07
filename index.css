@@ -1,0 +1,14 @@
+/* Home page css */
+.navbar{
+    margin: 0 0 10px 0;
+}
+.bannerContainer{
+    margin: 10px 0 0 0;
+}
+/* This targets button but cant get it centered use text-align? */
+.bannerTxt .contactBtn{
+    
+}
+#aboutHeader{
+    color: gold;
+}
