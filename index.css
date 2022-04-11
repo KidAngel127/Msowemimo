@@ -1,12 +1,29 @@
 /* Home page css */
 .bannerContainer{
-    margin: 10px 0 0 0;
-    
+    margin: 10px 0 0 0;   
 }
+.bannerIndex{
+    background: linear-gradient(#e6e6e6, #0052cc);
+}
+.bannerNum{
+  margin:10px;
+  font-size: 1cm;
+}
+.contactBtn{
+    margin: 20px;
+}
+#indexHdr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#flavorTxt{
+    width: 800px;
+}
+p{
+    text-indent: 3ch;
+}
+/* about page css */
 /* This targets button but cant get it centered use text-align? */
-.bannerTxt .contactBtn{
-    
-}
 #aboutHeader{
     color: gold;
     margin-bottom: 10px;
@@ -24,9 +41,14 @@
     align-content: center;
     text-align: center;
 }
+/* Contact page */
 #submitBtnCon{
     box-shadow: none;
 }
-.bannerIndex{
-    background-color: violet;
+#contactTxt{
+    color: silver;
 }
+.importantQst{
+    text-indent: 1ch;
+}
+
