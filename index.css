@@ -2,12 +2,20 @@
 h1, h3{
     color:#0052cc;
 }
+.colorPage{
+    background: linear-gradient(white, #C0C0C0);
+    height: 100vh;
+}
 /* Home page css */
+.page{
+    background: linear-gradient(white, #C0C0C0);
+    height: 100vh;
+}
 .bannerContainer{
     margin: 10px 0 0 0;   
 }
 .bannerIndex{
-    background: linear-gradient(#e6e6e6, #0052cc);
+    background: linear-gradient(#C0C0C0, #0052cc);
 }
 .bannerNum{
   margin:10px;
@@ -22,9 +30,14 @@ h1, h3{
 }
 #flavorTxt{
     width: 800px;
+    margin-bottom: 25px;
 }
 p{
     text-indent: 3ch;
+}
+#bannerPic{
+   width: 30rem;
+   height: 20rem;
 }
 /* about page css */
 /* This targets button but cant get it centered use text-align? */
@@ -35,15 +48,11 @@ p{
 .aboutTxt{
     margin-top: 20px;
 }
-/* working on fixing picture */
-.leftImage{
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-    text-align: center;
+.leftImage, .rightImage{
+    margin-bottom: 20px;
+}
+#leftTxt,#rightTxt{
+    margin-top: 20px;    
 }
 /* Contact page */
 #submitBtnCon{
